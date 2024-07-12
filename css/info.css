@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	background: rgba(124, 205, 134, 0.5);
+	font-family: "Montserrat", sans-serif;
+}
+header{
+	width: 100%;
+	height: 180px;
+	background: rgba(31, 39, 52, 1);
+	padding: 0;
+	margin: 0 auto;
+}
+.container_1{
+	box-shadow:0px 5px 5px #222222 ;
+	width: 100%;
+	padding-top: 10px;
+	margin: 0 auto;
+	display: block;
+}
+.container {
+	width:1200px;
+	margin: 0 auto;
+}
+.container ol {
+	color: #fff;
+}
+.container ul {
+	color: #fff;
+}
+.logo{
+	width: 100%;
+	text-align: center;
+	}
+img{
+	-webkit-filter: drop-shadow(-5px 2px 2px #166a35);
+  filter: drop-shadow(-5px 2px 2px #166a35);
+  max-width: 100%;
+}
+
+header nav {
+	width: auto;
+	text-align: center;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+header nav ul li {
+	padding-right: 100px;
+	display: inline-block;
+	font-size: 24px;
+	}
+header nav ul li a {
+	border-radius: 20px;
+	padding: 15px;
+	font-size: 18px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	color: #029911;
+	text-transform: capitalize;
+	line-height: 65px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	transition: all .5s ease;
+	}
+header nav ul li a:hover{
+	background: #26f063;
+	color:#1f2734 ;
+	text-decoration: underline;
+	}
+
+#banner{
+	width: 100%;
+	background: url(../images/bg.jpg) no-repeat fixed;
+	height: 2100px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	
+}
+#banner h1{
+	font-size: 46px;
+	margin-top: 60px;
+	color: #fff;
+	text-align: center;
+}
+#banner h2{
+	font-size: 46px;
+	margin-top: 60px;
+	color: #fff;
+}
+#banner p{
+	font-size: 18px;
+	color: #fff;
+	line-height: 30px;
+}
+#banner a{
+	background: #26f063;
+	color:#1f2734 ;
+	border-radius: 20px;
+	padding: 15px;
+	font-weight: 700;
+	font-size: 18px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	text-align: center;
+	margin-left: 500px;
+	font-family: "Montserrat", sans-serif;
+	transition: all .5s ease;
+}
+
+#banner a:hover {
+	background:#1f2734;
+	color: #26f063;
+
+}
+
